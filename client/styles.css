@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    
+    font-family: Molengo; 
+    font-size: 60px; 
+    font-style: normal; 
+    font-variant: small-caps; 
+    font-weight: 700; 
+    /* line-height: 19.8px;  */
+}
