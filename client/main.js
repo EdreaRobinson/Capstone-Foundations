@@ -3,16 +3,16 @@ function circularText(txt, radius, classIndex) {
       classIndex = document.getElementsByClassName("circTxt")[classIndex];
   
     var deg = 180 / txt.length,
-      origin = -93;
+      origin = -100;
   
     txt.forEach((ea) => {
-      ea = `<p style='height:${radius}px;position:absolute;transform:rotate(${origin}deg);transform-origin:0 100%'>${ea}</p>`;
+      ea = `<p  style='height:${radius}px;position:absolute;transform:rotate(${origin}deg);transform-origin:0 100%'>${ea}</p>`;
       classIndex.innerHTML += ea;
       origin += deg;
     });
   }
   
-  circularText("Silver Charm", 250, 0);
+  circularText("  Silver Charm", 300, 0);
 
 
 

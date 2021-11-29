@@ -5,53 +5,38 @@ body {
     background: radial-gradient(ellipse at center, #595959 0%, #353535 66%, #272727 100%);
 }
 
+div {text-align: center;}
+
 #logo {
-    margin-bottom: -6px;
+    margin-bottom: 1px;
 }
 
 h1 {
-    color: #68C3D4;
-    font-family: Molengo; 
-    font-size: 60px; 
-    font-style: normal; 
+    color: #E45319;
+    font-family: Sedgwick Ave Display; 
+    font-size: 100px; 
+    font-style: normal;
+    letter-spacing: 7px; 
     font-variant: small-caps; 
-    font-weight: 600; 
-    margin-bottom: 25px;
+    -webkit-text-stroke: 0.5px #CFCFCF;
+    text-shadow:0 4px 8px #666, 0 6px 16px #999;
+    margin: auto;
 }
 
 .SCF-container {
     text-align: center; 
   }
   
-  div.circTxt {
-    /*allows for centering*/
-    display: inline-block;
-    /*adjust as needed*/
-    flex-basis: auto;
-    margin-bottom: 128px;
-    font-size: 200px;
-    color: #68C3D4;
-    position:relative;
-    font-family: Molengo; 
-    font-style: normal; 
-    font-variant: small-caps; 
-    font-weight: 600;
-  }
-  
-  #shadow {
-    font-size:28px;
-    font-weight:bold;
-    text-shadow:0 4px 8px #666, 0 6px 16px #999;
-  }
-
-h2 {
+  h2 {
     color: #BF1363;
-    font-family: Molengo;
-    font-size: 40px;
+    font-family: Handlee;
+    font-size: 60px;
     font-style: bold;
     font-weight: 500;
     text-align: center;
-    font-variant: small-caps
+    font-variant: small-caps;
+    text-shadow:0 4px 8px #A829C9, 0 6px 16px #999;
+    margin: auto;
 }
 
 h3 {
@@ -61,7 +46,8 @@ h3 {
     font-style: normal;
     font-weight: 500;
     text-align: center;
-    font-variant: small-caps
+    font-variant: small-caps;
+    margin: auto;
 }
 
 h4 {
@@ -112,6 +98,14 @@ h4 {
     font-weight: 700;
 }
 
+#submit-btn {
+    background-color: #7DDF64;
+    font-family: Actor;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+}
+
 .btn-container {
     display: flex;
     flex-direction: row;
@@ -133,3 +127,27 @@ form {
     color: seashell;
     
 }
+  
+      div.circTxt {
+        /*allows for centering*/
+        display: inline-block;
+        /*adjust as needed*/
+       flex-basis: auto;
+        margin-bottom: 190px;
+        font-size: 500px;
+        color: #68C3D4;
+        position:relative;
+        font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif; 
+        font-style: normal; 
+ 
+        font-weight: 1000;
+    }
+      
+      #shadow {
+        font-size:80px;
+        font-weight:normal;
+        text-shadow:0 4px 8px #666, 0 6px 16px #999;
+        margin-bottom: 230px;
+        font-family: Cambria;
+        -webkit-text-stroke: 0.5px #00CCFE;
+    } 
