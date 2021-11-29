@@ -4,21 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>So you want a Frenchie...</title>
+    <title>Silver Charm Frenchies</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <p><img src="images\SCFLogo.PNG" alt="10x10 cube" width="130" height="120" /></p>
-        <h1>So you want a Frenchie...</h1><br>
-        <h2>Now what?</h2><br><br>
+    <header 
+    class=header-container>
+    <div class="SCF-container">
+        <div class="circTxt" id="shadow"></div>
+      </div>
+      <img id="logo" src="images\SCFLogo.PNG" width="400" height="300">
+<h1>Frenchies</h1>
+        <h2>So you want a Frenchie...</h2><br><br>
     </header>
     <main>
-        <button type="button" id="puppies-btn" name="see-puppies">See Puppies</button><br><br>
+        <div class="btn-container">
+        <button type="button" id="puppies-btn" name="see-puppies">Available Puppies</button><br><br>
         <section id="puppies-container"></section>
 
-        <button type="button" name="see-males">See Males</button><br><br>
-        <button type="button" name="see-females">See Females</button><br><br>
+        <button type="button" id="males-btn" name="see-males">See Males</button><br><br>
+        <button type="button" id="females-btn" name="see-females">See Females</button><br><br>
+        <button type="button" id="breedings-btn" name="breedings">Planned Breedings</button><br><br>
+        </div>
     </main>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="main.js"></script>

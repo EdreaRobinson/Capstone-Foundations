@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silver Charm Frenchies</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header 
+    class=header-container>
+      <img id="logo" src="images\SCFLogo.PNG" width="200" height="150">
+    </header><br>
+    <main>
+        <div class="btn-container">
+        <button type="button" id="home-btn" name="home">Home Page</button><br><br>
+        <button type="button" id="puppies-btn" name="see-puppies">Available Puppies</button><br><br>
+        <section id="puppies-container"></section>
+
+        <button type="button" id="males-btn" name="see-males">See Males</button><br><br>
+        <button type="button" id="females-btn" name="see-females">See Females</button><br><br>
+        <button type="button" id="breedings-btn" name="breedings">Planned Breedings</button><br><br>
+        </div>
+        <h2>Puppy Adoption Application</h2><br>
+        <h3>So you want a Frenchie...</h3>
+    </main>
+    <form id="application">
+        Name: <input type="text"><br>
+        <input type="text"><br>
+        Phone Number: <input type="tel"><br>
+        Physical Address: <input type="text"><br><input type="text"><br><input type="text"><br><input type="text"><br><input type="text"><br>
+        Email: <input type="text"><br>
+        <label for="answer-intouch">       Are you willing to stay in touch with Silver Charm Frenchies with photos and updates?</label> <select id="answer-intouch"> 
+            <option value="Yes">Yes</option> 
+            <option value="No">No</option></select><br><br>
+        <hr>
+    
+        <h3>Tell us more about yourself...</h3>
+    
+        How many people live in your household? <input type="number"><br><br>
+    
+        <label for="dwelling">Choose One:</label>
+        <select id="dwelling">
+            <option value="Own house">I own a house</option>
+            <option value="Own apartment">I own an apartment</option>
+            <option value="Rent house">I rent a house and dogs are allowed</option>
+            <option value="Rent apartment">I rent an apartment and dogs are allowed</option>
+        </select><br><br>
+
+        <label for="answer-kids">Do you have children?</label> 
+        <select id="answer-kids"> 
+            <option value="Yes">Yes</option> 
+            <option value="No">No</option></select><br><br>
+
+        <label for="answer-pets">Do you own any other pets?</label> <select id="answer-pets"> 
+           <option value="Yes">Yes</option>                     <option value="No">No</option></select><br><br>
+
+        <label for="answer-yard">Do you have a fenced yard?</label> <select id="answer-yard"> 
+            <option value="Yes">Yes</option>                     <option value="No">No</option></select><br><br>
+        <hr>
+    
+        <h4>
+        <label>How did you hear about Silver Charm Frenchies?</label><br><br>
+        <input type="radio" id= "ig" value="Instagram">
+        <label for="ig">Instagram</label><br>
+        <input type="radio" id= "fb" value="Facebook"> <label for="fb">Facebook</label><br>
+        <input type="radio" id= "referral" value="Referral">
+        <label for="referral">Friend/Referral</label><br>
+        <input type="radio" id= "other" value="Other"> <label for="other">Other</label><br>
+        If Other, please specify: <input type="text"><br>
+
+  
+        </h4>
+        
+   
+    </form>
+    
+    
+    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+    
+</body>
+</html>

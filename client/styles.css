@@ -1,14 +1,135 @@
-* {
-    margin: 0;
-    padding: 0;
+body {
+    background: #595959;
+    background: -moz-radial-gradient(center, #595959 0%, #353535 66%, #272727 100%);
+    background: -webkit-radial-gradient(center, #595959 0%, #353535 66%, #272727 100%);
+    background: radial-gradient(ellipse at center, #595959 0%, #353535 66%, #272727 100%);
+}
+
+#logo {
+    margin-bottom: -6px;
 }
 
 h1 {
-    
+    color: #68C3D4;
     font-family: Molengo; 
     font-size: 60px; 
     font-style: normal; 
     font-variant: small-caps; 
-    font-weight: 700; 
-    /* line-height: 19.8px;  */
+    font-weight: 600; 
+    margin-bottom: 25px;
+}
+
+.SCF-container {
+    text-align: center; 
+  }
+  
+  div.circTxt {
+    /*allows for centering*/
+    display: inline-block;
+    /*adjust as needed*/
+    flex-basis: auto;
+    margin-bottom: 128px;
+    font-size: 200px;
+    color: #68C3D4;
+    position:relative;
+    font-family: Molengo; 
+    font-style: normal; 
+    font-variant: small-caps; 
+    font-weight: 600;
+  }
+  
+  #shadow {
+    font-size:28px;
+    font-weight:bold;
+    text-shadow:0 4px 8px #666, 0 6px 16px #999;
+  }
+
+h2 {
+    color: #BF1363;
+    font-family: Molengo;
+    font-size: 40px;
+    font-style: bold;
+    font-weight: 500;
+    text-align: center;
+    font-variant: small-caps
+}
+
+h3 {
+    color: #68C3D4;
+    font-family: Actor;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    font-variant: small-caps
+}
+
+h4 {
+    color: #F39237;
+    font-family: Actor;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: small-caps
+}
+
+#puppies-btn {
+    background-color: #7DDF64;
+    font-family: Actor;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+#males-btn {
+    background-color: #68C3D4;
+    font-family: Actor;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+#females-btn {
+    background-color: #BF1363;
+    font-family: Actor;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+#breedings-btn {
+    background-color: #F39237;
+    font-family: Actor;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+#home-btn {
+    background-color: #F39237;
+    font-family: Actor;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    /* align-content: space-around; */
+    gap: 20px
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+form {
+    font-family: Actor;
+    font-size: 20px;
+    color: seashell;
+    
 }
